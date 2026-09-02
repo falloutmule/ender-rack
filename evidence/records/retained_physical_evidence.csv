@@ -1,0 +1,10 @@
+Measurement_ID,Value_mm,Datum_Reference,Method,Confidence,Status,Notes
+PHYS_TRAVEL,270,"same carriage-hole center; X switch just clicked to furthest safe opposite position","rough physical observation",medium-high,provisional,"Preserved; refine to approximately +/-2 mm"
+TENSIONER_LENGTH,45,"tensioner longitudinal extent; exact endpoints not recorded","small-ruler physical observation",low,provisional,"Remeasure after carriage datum is established"
+TENSIONER_PROTRUSION,7,"protrusion from an unrecorded reference face","small-ruler physical observation",low,provisional,"Do not use until datum is restated"
+BELT_CENTERLINE,10,"reference extrusion face and axis not yet recorded","physical observation",low,provisional,"Remeasure with explicit datum"
+PULLEY_FROM_EXTRUSION_END,10,"from extrusion end along X","physical observation",low-medium,provisional,"Preserve and verify"
+TRADRACK_LANE_PITCH,17,"official TradRack lane-center axis","official CAD measurement",high,reference,"Unaffected"
+SPAN_15_LANES,238,"14 intervals at 17 mm","derived",high,derived,"Unaffected"
+SPAN_12_LANES,187,"11 intervals at 17 mm","derived",high,derived,"Unaffected"
+

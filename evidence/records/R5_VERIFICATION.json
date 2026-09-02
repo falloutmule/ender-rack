@@ -1,0 +1,384 @@
+{
+  "fcstd": "C:\\Users\\fallo\\Documents\\Codex\\2026-08-30\\set-up-freecad-mcp-on-this\\outputs\\ender-rack\\EnderRack_Selector_Interface_Coupon_R5.FCStd",
+  "step": "C:\\Users\\fallo\\Documents\\Codex\\2026-08-30\\set-up-freecad-mcp-on-this\\outputs\\ender-rack\\exports\\EnderRack_Selector_Interface_Coupon_R5.step",
+  "stl": "C:\\Users\\fallo\\Documents\\Codex\\2026-08-30\\set-up-freecad-mcp-on-this\\outputs\\ender-rack\\exports\\EnderRack_Selector_Interface_Coupon_R5.stl",
+  "fabrication_status": "PROVISIONAL \u2014 FIT-CHECK FABRICATION ONLY. DO NOT FABRICATE PRODUCTION PARTS.",
+  "stop_gate": "Stop after this coupon. Do not build the 238 mm sweep, lane structure, tensioner redesign, or full adapter until the real-selector physical test passes.",
+  "coupon_valid": true,
+  "coupon_solids": 1,
+  "coupon_bbox_mm": {
+    "min": [
+      -10.75,
+      0.0,
+      -32.55000000000004
+    ],
+    "max": [
+      50.75,
+      22.25,
+      8.0
+    ],
+    "size": [
+      61.5,
+      22.25,
+      40.55000000000004
+    ],
+    "center": [
+      20.0,
+      11.125,
+      -12.27500000000002
+    ]
+  },
+  "coupon_volume_mm3": 23459.307824973832,
+  "reopen_object_count": 19,
+  "parameters_persisted": true,
+  "transform": {
+    "frame": "Ender_Carriage_Frame normalized at motor-side upper wheel axis on steel contact face",
+    "selector_mount_frame": "TradRack MGN-block mating plane centroid",
+    "translation_mm": [
+      15.0,
+      22.25,
+      -20.30000000000004
+    ],
+    "roll_pitch_yaw_deg": [
+      0,
+      0,
+      0
+    ],
+    "legacy_audit_selector_frame_translation_mm": [
+      15.0,
+      23.536264737645403,
+      -20.30000000000004
+    ],
+    "axes": {
+      "X": "tensioner/idler",
+      "Y": "outward/selector-facing",
+      "Z": "machine-up"
+    }
+  },
+  "selector_source_object_count": 162,
+  "selector_mount_holes": [
+    {
+      "x": 10.0,
+      "y": 22.25,
+      "z": -27.80000000000004,
+      "diameter": 2.7,
+      "source": "TradRack MGN9 threaded pattern +/-5 X, +/-7.5 Z"
+    },
+    {
+      "x": 10.0,
+      "y": 22.25,
+      "z": -12.80000000000004,
+      "diameter": 2.7,
+      "source": "TradRack MGN9 threaded pattern +/-5 X, +/-7.5 Z"
+    },
+    {
+      "x": 20.0,
+      "y": 22.25,
+      "z": -27.80000000000004,
+      "diameter": 2.7,
+      "source": "TradRack MGN9 threaded pattern +/-5 X, +/-7.5 Z"
+    },
+    {
+      "x": 20.0,
+      "y": 22.25,
+      "z": -12.80000000000004,
+      "diameter": 2.7,
+      "source": "TradRack MGN9 threaded pattern +/-5 X, +/-7.5 Z"
+    }
+  ],
+  "ender_validated_holes": [
+    {
+      "role": "Hotend_Boss_Tensioner",
+      "x": 43.5,
+      "z": -12.55,
+      "r": 1.7,
+      "structural": "M3 original hotend attachment"
+    },
+    {
+      "role": "Hotend_Boss_Motor",
+      "x": 29.5,
+      "z": -12.55,
+      "r": 1.7,
+      "structural": "M3 original hotend attachment"
+    },
+    {
+      "role": "Auxiliary_Upper",
+      "x": 18.5,
+      "z": -2.45,
+      "r": 1.7,
+      "structural": "feature type not physically verified"
+    },
+    {
+      "role": "Auxiliary_Lower",
+      "x": 1.0,
+      "z": -21.35,
+      "r": 1.7,
+      "structural": "feature type not physically verified"
+    }
+  ],
+  "collision_candidate_counts": {
+    "coupon": 6,
+    "belt": 1
+  },
+  "collision_candidates": {
+    "coupon": [
+      {
+        "name": "Part__Feature142",
+        "common_mm3": 0.0,
+        "distance_mm": 0.0999999999999499,
+        "bbox": {
+          "min": [
+            35.80187881634139,
+            -7.7500006495081895,
+            8.09999999999995
+          ],
+          "max": [
+            65.4351693989437,
+            6.61850618201751,
+            25.299999999999955
+          ],
+          "size": [
+            29.633290582602307,
+            14.3685068315257,
+            17.200000000000003
+          ],
+          "center": [
+            50.61852410764254,
+            -0.5657472337453395,
+            16.699999999999953
+          ]
+        }
+      },
+      {
+        "name": "Part__Feature112",
+        "common_mm3": 0.0,
+        "distance_mm": 4.583939353874578,
+        "bbox": {
+          "min": [
+            9.344500753472241,
+            21.594500753472232,
+            -3.600000000000049
+          ],
+          "max": [
+            20.65549924652776,
+            32.905499246527754,
+            7.699999999999958
+          ],
+          "size": [
+            11.31099849305552,
+            11.310998493055521,
+            11.300000000000008
+          ],
+          "center": [
+            15.0,
+            27.249999999999993,
+            2.0499999999999545
+          ]
+        }
+      },
+      {
+        "name": "Part__Feature111",
+        "common_mm3": 0.0,
+        "distance_mm": 0.7499999999398455,
+        "bbox": {
+          "min": [
+            3.1310779501615222,
+            21.08474963440259,
+            -13.343755919946185
+          ],
+          "max": [
+            32.868922049615016,
+            63.57999999975645,
+            4.415948134357862
+          ],
+          "size": [
+            29.737844099453493,
+            42.49525036535386,
+            17.759704054304045
+          ],
+          "center": [
+            17.999999999888267,
+            42.332374817079526,
+            -4.463903892794161
+          ]
+        }
+      },
+      {
+        "name": "Part__Feature102",
+        "common_mm3": 0.0,
+        "distance_mm": 0.09999999944716365,
+        "bbox": {
+          "min": [
+            -6.041817673153883,
+            20.349999999413342,
+            -32.9833256029757
+          ],
+          "max": [
+            6.500000000000002,
+            64.42867813852676,
+            -10.299999740989529
+          ],
+          "size": [
+            12.541817673153885,
+            44.07867813911342,
+            22.68332586198617
+          ],
+          "center": [
+            0.22909116342305946,
+            42.38933906897005,
+            -21.641662671982612
+          ]
+        }
+      },
+      {
+        "name": "Part__Feature101",
+        "common_mm3": 0.0,
+        "distance_mm": 5.0658168148018365,
+        "bbox": {
+          "min": [
+            23.613128946378655,
+            20.349999766729443,
+            -60.00000000000005
+          ],
+          "max": [
+            42.44181767286314,
+            85.95000000000002,
+            25.20000881912928
+          ],
+          "size": [
+            18.828688726484483,
+            65.60000023327058,
+            85.20000881912932
+          ],
+          "center": [
+            33.027473309620895,
+            53.14999988336473,
+            -17.399995590435385
+          ]
+        }
+      },
+      {
+        "name": "Part__Feature099",
+        "common_mm3": 0.0,
+        "distance_mm": 1.4994228081377514e-10,
+        "bbox": {
+          "min": [
+            3.9539883273273633,
+            22.249999999592546,
+            -30.300000000068447
+          ],
+          "max": [
+            32.04601167269267,
+            64.20054804825524,
+            -5.937762754116326
+          ],
+          "size": [
+            28.09202334536531,
+            41.9505480486627,
+            24.362237245952123
+          ],
+          "center": [
+            18.00000000001002,
+            43.225274023923895,
+            -18.118881377092386
+          ]
+        }
+      }
+    ],
+    "belt": [
+      {
+        "name": "Part__Feature160",
+        "common_mm3": 0.0,
+        "distance_mm": 0.8667146694203167,
+        "bbox": {
+          "min": [
+            9.000000000000007,
+            18.625,
+            -44.05000000000004
+          ],
+          "max": [
+            20.000000000000004,
+            24.125,
+            -38.55000000000004
+          ],
+          "size": [
+            10.999999999999996,
+            5.5,
+            5.5
+          ],
+          "center": [
+            14.500000000000005,
+            21.375,
+            -41.30000000000004
+          ]
+        }
+      }
+    ]
+  },
+  "r2_contact_layer_missing_volume_mm3": 0.0,
+  "boss_pockets": {
+    "diameter_mm": 5.5,
+    "depth_mm": 5.2,
+    "required_floor_mm": 2.4,
+    "min_local_thickness_mm": 7.6,
+    "locator_status": "clearance only"
+  },
+  "static_collisions": {
+    "selector_coupon_common_volume_mm3": 0.0,
+    "selector_coupon_distance_mm": 1.4994228081377514e-10,
+    "coupon_belt_common_volume_mm3": 0.0,
+    "selector_belt_common_volume_mm3": 0.0,
+    "selector_belt_distance_mm": 0.8667146694203167,
+    "coupon_wheel_common_volume_mm3": 0.0,
+    "belt_envelope_status": "modeled/conservative; mandatory physical confirmation"
+  },
+  "step_distance_mm": 0.0,
+  "step_bbox_max_delta_mm": 4.263256414560601e-14,
+  "stl_bbox_max_delta_mm": 7.629394929153932e-07,
+  "stl_facets": 1520,
+  "orientation": "Cross = motor side; opposite reinforced wheel-edge side = tensioner/idler; Y=0 = steel contact face; Y=22.25 = selector-facing face. R2 V-notch removed from load-bearing geometry.",
+  "physical_correction": "R5 responds to the circled real failure location: R4 fixed the lower wheel-edge bridge but left only 0.25 mm laterally at the x=0 wheel relief. R5 provides 5 mm lateral and lower ligaments around both wheel reliefs and retains the two full-height triangular selector-block gussets. The selector pilots remain intentionally blind.",
+  "selector_pilots": {
+    "diameter_mm": 2.7,
+    "depth_mm": 6.5,
+    "mode": "blind temporary M3 self-tapping pilot",
+    "through": false
+  },
+  "reinforcement": {
+    "x_min_mm": -10.75,
+    "x_max_mm": 50.75,
+    "z_min_mm": -10.75,
+    "z_max_mm": 8.0,
+    "depth_mm": 7.6,
+    "wheel_relief_radius_mm": 5.75,
+    "lower_outer_wall_mm": 5.0,
+    "side_outer_wall_mm": 5.0,
+    "r2_v_notch_removed": true,
+    "notch_fill_x_mm": [
+      46.0,
+      50.5
+    ],
+    "notch_fill_z_mm": [
+      -16.0,
+      -9.1
+    ],
+    "cross_retained": true
+  },
+  "gussets": {
+    "count": 2,
+    "type": "full-height triangular side webs",
+    "root_width_mm": 8.0,
+    "face_setback_mm": 3.0,
+    "tip_y_mm": 19.25,
+    "z_min_mm": -32.55000000000004,
+    "z_max_mm": -8.05000000000004
+  },
+  "physical_gate": [
+    "closed 5 mm wheel-edge wall toward tensioner/idler and cross toward motor",
+    "steel-contact face fully seated; selector-facing face outward",
+    "mount real stock selector with temporary M3 fasteners and hand support",
+    "finger-snug interface does not translate or rotate appreciably",
+    "gently test twist, inward/outward push, and vertical rock at interface",
+    "confirm fastener/tool access and physical belt clearance"
+  ]
+}

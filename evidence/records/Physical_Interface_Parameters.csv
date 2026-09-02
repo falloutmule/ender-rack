@@ -1,0 +1,16 @@
+Feature_ID,X_mm,Z_mm,Diameter_mm,Depth_mm,Feature_Type,Thread_Fastener,Front_Access,Rear_Access,Usable_For_Adapter,Datum_Reference,Measurement_Method,Repeatability_mm,Confidence,Notes
+DATUM_U0,0,0,,,Upper wheel axis,motor-side upper wheel,,,,"Y=0 outward steel face; origin",pin or axle measurement,,pending,"Defines origin"
+DATUM_U1,,,,,Upper wheel axis,tensioner-side upper wheel,,,,"DATUM_U0; +X toward tensioner",pin or axle center-distance,,pending,"Defines X axis; expected near 40 mm only as a comparison, not an input"
+DATUM_ECC,,,,,Lower eccentric wheel axis,eccentric axle,,,,DATUM_U0,pin or axle measurement,,pending,
+FACE_Y0,0,0,,0,Datum plane,steel outward face,,,no,DATUM_U0,flatness and depth checks,,pending,
+P01,,,,,Unclassified feature,,,,,DATUM_U0,pin/caliper plus calibrated scan,,pending,
+P02,,,,,Unclassified feature,,,,,DATUM_U0,pin/caliper plus calibrated scan,,pending,
+P03,,,,,Unclassified feature,,,,,DATUM_U0,pin/caliper plus calibrated scan,,pending,
+P04,,,,,Unclassified feature,,,,,DATUM_U0,pin/caliper plus calibrated scan,,pending,
+P05,,,,,Unclassified feature,,,,,DATUM_U0,pin/caliper plus calibrated scan,,pending,
+P06,,,,,Unclassified feature,,,,,DATUM_U0,pin/caliper plus calibrated scan,,pending,
+BELT_CENTER,,,,,Belt centerline,,,,no,"state extrusion face and axis explicitly",caliper/depth measurement,,pending,
+BELT_CLAMP,,,,,Belt attachment,,,,pending,DATUM_U0,caliper plus photograph,,pending,
+R2_BOSS_CLEARANCE_A,43.5,-12.55,5.5,5.2,Boss clearance pocket,M3 bore coaxial,contact-side pocket,selector side through bore,yes,"DATUM_U0; X toward tensioner; Z machine-up","official BRep center + R2 physical seating PASS",,validated-fit,"Clearance feature only; not a locator; physical boss OD/height not independently measured"
+R2_BOSS_CLEARANCE_B,29.5,-12.55,5.5,5.2,Boss clearance pocket,M3 bore coaxial,contact-side pocket,selector side through bore,yes,"DATUM_U0; X toward tensioner; Z machine-up","official BRep center + R2 physical seating PASS",,validated-fit,"Clearance feature only; not a locator; physical boss OD/height not independently measured"
+SELECTOR_MOUNT_FRAME,15.0,-20.3,,22.25,TradRack selector mating frame,"4 x temporary M3 on 10 x 15 pattern",selector-facing,tool approach from selector side,fit-check,"Y=0 steel contact; X origin motor upper wheel; Z shown in Z_mm; depth column records +Y","official Ender/TradRack CAD + conservative local envelope",,digital-provisional,"T=(+15.000,+22.250,-20.300) mm; RPY=0/0/0; physical selector and belt check required"

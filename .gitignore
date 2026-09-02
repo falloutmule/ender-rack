@@ -1,0 +1,36 @@
+# Whitelist the curated repository package; legacy workspace content remains local.
+*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/docs/
+!/docs/**
+!/cad/
+!/cad/**
+!/exports/
+!/exports/fit-checks/
+!/exports/fit-checks/**
+!/evidence/
+!/evidence/**
+!/sources/
+!/sources/**
+!/THIRD_PARTY_LICENSES/
+!/THIRD_PARTY_LICENSES/**
+!/archive/
+!/archive/README.md
+
+# Never track local/transient or personal evidence in curated directories.
+**/*.FCBak
+**/*.bak
+**/*~
+**/*.tmp
+**/*.temp
+**/*.log
+**/*.gcode
+**/*.3mf
+**/*.jpg
+**/*.jpeg
+**/*.heic
+**/source-download-cache/
+**/extracted/
+
