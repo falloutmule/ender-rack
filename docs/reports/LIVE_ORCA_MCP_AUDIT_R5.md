@@ -1,3 +1,5 @@
+> Historical evidence only. Not the current design or print instruction. R5 relationships and 22.25 mm stand-off are retired; see docs/CURRENT_STATE.md.
+
 # EnderRack R5 live Orca MCP slice audit
 
 ## Classification

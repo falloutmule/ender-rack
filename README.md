@@ -8,9 +8,9 @@ The intended architecture retains the Ender X extrusion, V-wheel carriage, belt,
 
 **Experimental. No production-ready release exists.**
 
-The controlling CAD article is the R5 secondary selector-interface coupon. It has passed digital topology, export-fidelity, and static clearance checks, but its current Orca G-code is diagnostic only: it used an Ender-3 V2 preset and carries a material-temperature warning. The immediate prerequisite is to select and verify the correct original Ender-3-family 0.4 mm printer profile and approved PLA temperatures, then re-slice R5.
+The current article is **R7_ARCHITECTURE_V2_Candidate_001**. It has been printed and physically seats on the intact Ender carriage at the observed scope; a recurring boss-clearance overhang print defect did not prevent fit. No TradRack selector has been built yet, so full R7 physical PASS is **not** complete.
 
-After re-slicing, R5 must pass a physical static fit test with the real TradRack selector. The complete 238 mm motion sweep, tensioner resolution, and production adapter remain blocked until that physical gate passes.
+Next: [print and assemble the exact stock moving selector](docs/STOCK_SELECTOR_BUILD.md), then finish the R7 physical test. Production work and the 238 mm sweep remain gated. Earlier broad master/reproducibility claims require re-audit under the upgraded FreeCAD skill before production release.
 
 Start with [CURRENT_STATE.md](docs/CURRENT_STATE.md), then read the complete [engineering handoff](docs/ENDER_RACK_HANDOFF.md).
 
@@ -28,4 +28,3 @@ The earlier Ender-3 V2 reference failed this workflow and is archived as rejecte
 - [Annex-Engineering/TradRack](https://github.com/Annex-Engineering/TradRack)
 
 See [SOURCES.md](sources/SOURCES.md) and [LICENSE_NOTES.md](sources/LICENSE_NOTES.md). Complete upstream archives and assemblies are intentionally not vendored here. No EnderRack-wide license has been selected.
-

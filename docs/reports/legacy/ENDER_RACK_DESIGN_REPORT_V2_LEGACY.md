@@ -1,6 +1,8 @@
+> Historical evidence only. Not the current design or print instruction. R5 relationships and 22.25 mm stand-off are retired; see docs/CURRENT_STATE.md.
+
 # EnderRack 15-Lane Conversion Design Report
 
-> **LEGACY / SUPERSEDED:** The current controlling article is R5. This report is retained as engineering history and must not override `docs/CURRENT_STATE.md` or the current handoff.
+> **LEGACY / SUPERSEDED:** R5 was the controlling article when this historical report was archived; it is now retired. This report is retained as engineering history and must not override `docs/CURRENT_STATE.md` or the current handoff.
 
 > **SUPERSEDED CARRIAGE INTERFACE — PHYSICAL FIT-CHECK FAILED.** Do not fabricate the adapter or continue tensioner redesign from this document's community-CAD carriage coordinates. The digital pipeline reproduced the selected E1–E5 centers correctly, but the pattern does not match the plate on this machine and the selected source cylinders were not all equivalent mounting holes. Preserve the unaffected TradRack and lane-system work. See [`interface-recovery/ENDER_CARRIAGE_INTERFACE_AUDIT.md`](interface-recovery/ENDER_CARRIAGE_INTERFACE_AUDIT.md).
 

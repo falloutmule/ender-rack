@@ -1,0 +1,469 @@
+{
+  "source": {
+    "url": "https://docs.google.com/spreadsheets/d/1SKBtkgSVPqqGEjftI6v6i6T5Bh3Phx-4YXsJYH17ggs/edit",
+    "retrieved": "2026-09-04",
+    "snapshot_sha256": "6016ccba95fe3033ba0d5b1651669f3bc5aa2deff084acb5c36b0491abe89531",
+    "is_git_pinned": false
+  },
+  "sheet": "Trad Rack",
+  "rows": [
+    {
+      "row": 15,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "Bondtech BMG 17T Gear",
+        "C": 1.0,
+        "E": "KB3D",
+        "G": "Aliexpress"
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "3mm x 20mm Shaft (G6 External Tolerance, 1045 Carbon Steel)",
+        "C": 1.0,
+        "E": "KB3D (Bondtech BMG Extruder Internals Kit)",
+        "F": "Bondtech (BMG Internals for Sherpa Mini)"
+      }
+    },
+    {
+      "row": 17,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "Bondtech Drive Gear Set (1.75mm Filament)",
+        "C": 1.0
+      }
+    },
+    {
+      "row": 18,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "Bondtech BMG Shaft Assembly",
+        "C": 1.0
+      }
+    },
+    {
+      "row": 19,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "Bondtech BMG Thumbscrew Assembly",
+        "C": 1.0
+      }
+    },
+    {
+      "row": 20,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "MR85-2RS Bearing",
+        "C": 2.0,
+        "G": "Fast Eddy Bearings",
+        "H": "Aliexpress",
+        "J": "https://www.kugellager-express.de",
+        "K": "check Fast Eddy Bearings on ebay too, pricing may be better/free shipping"
+      }
+    },
+    {
+      "row": 21,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "MR115-2RS Bearing",
+        "C": 2.0,
+        "E": "Misumi",
+        "F": "KB3D",
+        "G": "Aliexpress",
+        "J": "https://www.kugellager-express.de"
+      }
+    },
+    {
+      "row": 22,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "623-2RS Bearing",
+        "C": "N+1",
+        "E": "Misumi",
+        "F": "KB3D",
+        "G": "Aliexpress",
+        "J": "https://www.kugellager-express.de"
+      }
+    },
+    {
+      "row": 23,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "NEMA17 Stepper (1.8deg)",
+        "C": 1.0,
+        "E": "Filastruder - LDO (42STH40-1004ASR)",
+        "G": "Aliexpress",
+        "K": "Selector Motor. Almost any NEMA17 motor will work for this."
+      }
+    },
+    {
+      "row": 24,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "NEMA17 Stepper (1.8deg)",
+        "C": 1.0,
+        "E": "Filastruder - LDO (42STH48-2504AC)",
+        "F": "KB3D - LDO (42STH48-2504AC)",
+        "G": "Aliexpress",
+        "K": "Filament Drive Motor. Motor selection can have a large effect on toolchange time. A NEMA14 36mm round motor with 10T or 8T gear will also work but will not be as quick."
+      }
+    },
+    {
+      "row": 25,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "Servo Motor - FEETECH MINI FT1117M, JX Servo PS-1171MG, or Power HD Mini Servo HD-1711MG",
+        "C": 1.0,
+        "G": "Digikey (part #: 2183-3423-ND)",
+        "H": "KB3D",
+        "I": "Aliexpress"
+      }
+    },
+    {
+      "row": 26,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "5mm x 40mm Shaft (G6 External Tolerance, 1045 Carbon Steel)",
+        "C": 1.0,
+        "E": "KB3D (40mm)",
+        "G": "Aliexpress"
+      }
+    },
+    {
+      "row": 27,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "5mm x 30mm Shaft (G6 External Tolerance, 1045 Carbon Steel)",
+        "C": 1.0,
+        "E": "KB3D (30mm)",
+        "G": "Aliexpress"
+      }
+    },
+    {
+      "row": 28,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "MGN9 - Linear Rail with Carriage - C cart preferred (use calculator for length)",
+        "C": 1.0,
+        "E": "Robotdigg"
+      }
+    },
+    {
+      "row": 29,
+      "cells": {
+        "A": "Motion - Common",
+        "B": "4mm Ball Bearing",
+        "C": 1.0,
+        "G": "Amazon",
+        "H": "Aliexpress"
+      }
+    },
+    {
+      "row": 35,
+      "cells": {
+        "A": "Motion - 9mm Belt Option",
+        "B": "Open Loop 2GT Belt - 9mm Wide",
+        "C": "use calculator",
+        "E": "KB3D",
+        "G": "Aliexpress"
+      }
+    },
+    {
+      "row": 36,
+      "cells": {
+        "A": "Motion - 9mm Belt Option",
+        "B": "2GT 20T Pulley - 9mm Width - 5mm Bore",
+        "C": 1.0,
+        "E": "KB3D",
+        "G": "Aliexpress"
+      }
+    },
+    {
+      "row": 37,
+      "cells": {
+        "A": "Motion - 9mm Belt Option",
+        "B": "2GT 20T Toothed Idler - 9mm Width - 5mm Bore (11mm Actual Height)",
+        "C": 1.0,
+        "E": "KB3D",
+        "G": "Aliexpress"
+      }
+    },
+    {
+      "row": 39,
+      "cells": {
+        "A": "Filament Management",
+        "B": "ECAS-04 Connector",
+        "C": "N+1",
+        "G": "Aliexpress"
+      }
+    },
+    {
+      "row": 42,
+      "cells": {
+        "A": "Electronics",
+        "B": "Omron D2F Microswitch",
+        "C": 1.0,
+        "E": "Digikey (D2F-D3)",
+        "F": "Digikey (D2F-L-D3) (Remove Lever)",
+        "G": "Digikey (D2F)",
+        "H": "Digikey (D2F-01)",
+        "K": "any of these variants will work: D2F, D2F-01, D2F-5, D2F-D3, D2F-01-D3, D2F-D, D2F-01-D"
+      }
+    },
+    {
+      "row": 43,
+      "cells": {
+        "A": "Electronics",
+        "B": "Omron D2F-L Microswitch",
+        "C": 1.0,
+        "E": "Digikey (D2F-L-D3)",
+        "G": "Digikey (D2F-L)",
+        "H": "Digikey (D2F-01L)",
+        "K": "any of these variants will work: D2F-L, D2F-01L, D2F-5L, D2F-L-D3, D2F-01L-D3, D2F-L-D, D2F-01L-D"
+      }
+    },
+    {
+      "row": 51,
+      "cells": {
+        "A": "Wiring - Common",
+        "B": "Cable Chain - 10mm x 10mm or 10mm x 11mm, 28mm Radius",
+        "C": "use calculator",
+        "E": "IGUS (Part No. E2-10-10-028-0)",
+        "G": "Aliexpress (10x11 open, R28)",
+        "K": "Igus option has a 20mm pitch and Aliexpress option has a 16.7mm pitch"
+      }
+    },
+    {
+      "row": 70,
+      "cells": {
+        "A": "Wiring - DIY Harness",
+        "B": "Nylon Cable Ties 4\"",
+        "C": 10.0,
+        "E": "Amazon"
+      }
+    },
+    {
+      "row": 71,
+      "cells": {
+        "A": "Wiring - DIY Harness",
+        "B": "MicroFit3 Male Pin (43031-0007)",
+        "C": 12.0,
+        "E": "Digikey"
+      }
+    },
+    {
+      "row": 72,
+      "cells": {
+        "A": "Wiring - DIY Harness",
+        "B": "MicroFit3 Female Pin (43030-0007)",
+        "C": 12.0,
+        "E": "Digikey"
+      }
+    },
+    {
+      "row": 73,
+      "cells": {
+        "A": "Wiring - DIY Harness",
+        "B": "MicroFit Connector Receptacle 4 Position (43645-0400)",
+        "C": 1.0,
+        "E": "Digikey"
+      }
+    },
+    {
+      "row": 74,
+      "cells": {
+        "A": "Wiring - DIY Harness",
+        "B": "MicroFit Connector Receptacle 3 Position (43645-0300)",
+        "C": 1.0,
+        "E": "Digikey"
+      }
+    },
+    {
+      "row": 75,
+      "cells": {
+        "A": "Wiring - DIY Harness",
+        "B": "MicroFit Connector Receptacle 2 Position (43645-0200)",
+        "C": 1.0,
+        "E": "Digikey"
+      }
+    },
+    {
+      "row": 76,
+      "cells": {
+        "A": "Wiring - DIY Harness",
+        "B": "MicroFit Connector Plug 4 Position (43640-0401)",
+        "C": 1.0,
+        "E": "Digikey"
+      }
+    },
+    {
+      "row": 77,
+      "cells": {
+        "A": "Wiring - DIY Harness",
+        "B": "MicroFit Connector Plug 3 Position (43640-0301)",
+        "C": 1.0,
+        "E": "Digikey"
+      }
+    },
+    {
+      "row": 78,
+      "cells": {
+        "A": "Wiring - DIY Harness",
+        "B": "MicroFit Connector Plug 2 Position (43640-0201)",
+        "C": 1.0,
+        "E": "Digikey"
+      }
+    },
+    {
+      "row": 79,
+      "cells": {
+        "A": "Wiring - DIY Harness",
+        "B": "24AWG Motion Rated Cable",
+        "C": "2m",
+        "E": "Automation Direct (8 Conductor)",
+        "K": "wire does wear out over time, there should be enough here for some extra just incase"
+      }
+    },
+    {
+      "row": 80,
+      "cells": {
+        "A": "Wiring - DIY Harness",
+        "B": "6mm ID Braided Wire Sleeving",
+        "C": "2m",
+        "G": "Aliexpress"
+      }
+    },
+    {
+      "row": 81,
+      "cells": {
+        "A": "Wiring - DIY Harness",
+        "B": "Heatshrink Assortment Kit",
+        "C": 1.0,
+        "G": "Aliexpress"
+      }
+    },
+    {
+      "row": 84,
+      "cells": {
+        "A": "Fasteners",
+        "B": "M3 x 30mm Socket Head Cap Screw",
+        "C": 2.0,
+        "E": "McMaster-Carr",
+        "G": "Bolt Depot"
+      }
+    },
+    {
+      "row": 85,
+      "cells": {
+        "A": "Fasteners",
+        "B": "M3 x 25mm Socket Head Cap Screw",
+        "C": 3.0,
+        "E": "McMaster-Carr",
+        "G": "Bolt Depot"
+      }
+    },
+    {
+      "row": 86,
+      "cells": {
+        "A": "Fasteners",
+        "B": "M3 x 16mm Socket Head Cap Screw",
+        "C": 14.0,
+        "E": "McMaster-Carr",
+        "G": "Bolt Depot"
+      }
+    },
+    {
+      "row": 87,
+      "cells": {
+        "A": "Fasteners",
+        "B": "M3 x 12mm Socket Head Cap Screw",
+        "C": 5.0,
+        "E": "McMaster-Carr",
+        "G": "Bolt Depot"
+      }
+    },
+    {
+      "row": 88,
+      "cells": {
+        "A": "Fasteners",
+        "B": "M3 x 10mm Socket Head Cap Screw",
+        "C": 9.0,
+        "E": "McMaster-Carr",
+        "G": "Bolt Depot"
+      }
+    },
+    {
+      "row": 89,
+      "cells": {
+        "A": "Fasteners",
+        "B": "M3 x 10mm Countersunk Socket Head Cap Screw",
+        "C": 6.0,
+        "E": "McMaster-Carr",
+        "G": "Bolt Depot"
+      }
+    },
+    {
+      "row": 90,
+      "cells": {
+        "A": "Fasteners",
+        "B": "M3 x 8mm Socket Head Cap Screw",
+        "C": "use calculator",
+        "E": "McMaster-Carr",
+        "G": "Bolt Depot"
+      }
+    },
+    {
+      "row": 91,
+      "cells": {
+        "A": "Fasteners",
+        "B": "M2.5 x 5mm Socket Head Cap Screw (or M2.5 x 4mm)",
+        "C": 1.0,
+        "E": "McMaster-Carr",
+        "G": "Bolt Depot",
+        "K": "may be needed if the screw included with the servo doesn't fit in the servo's spline"
+      }
+    },
+    {
+      "row": 92,
+      "cells": {
+        "A": "Fasteners",
+        "B": "M2 x 12mm Pan Head Self Tapping Screw",
+        "C": 4.0,
+        "E": "McMaster-Carr",
+        "G": "Aliexpress"
+      }
+    },
+    {
+      "row": 93,
+      "cells": {
+        "A": "Fasteners",
+        "B": "7mm OD x 5mm ID x 0.5mm Thick - Spring Steel Shim Washer",
+        "C": 8.0,
+        "G": "Aliexpress",
+        "K": "quantity listed may include 0-1 extra, depending on which idler pulley you use"
+      }
+    },
+    {
+      "row": 94,
+      "cells": {
+        "A": "Fasteners",
+        "B": "M3 Plain Washer",
+        "C": 6.0,
+        "E": "McMaster-Carr",
+        "G": "Bolt Depot"
+      }
+    },
+    {
+      "row": 95,
+      "cells": {
+        "A": "Fasteners",
+        "B": "M3 Brass Heat Stake Threaded Insert - Short",
+        "C": 41.0,
+        "E": "McMaster-Carr",
+        "G": "Aliexpress (M3 X D5.0 X L4.0)"
+      }
+    }
+  ]
+}

@@ -1,46 +1,27 @@
 # EnderRack current state
 
-**CURRENT CONTROLLING ARTICLE: R5 secondary selector-interface coupon.**
+Updated 2026-09-04. **Current article: R7_ARCHITECTURE_V2_Candidate_001. Printed; scoped carriage fit PASS; full R7 physical PASS NOT YET.**
 
-Older V-notch instructions are superseded. R5 uses:
+## Physical state — owner report
 
-- engraved cross = motor side;
-- opposite reinforced wheel-edge side = tensioner/idler side;
-- steel-contact face at `Y=0`;
-- selector-facing face at `Y=22.25 mm`.
+The Ender donor was NEVER disassembled. Original Ender X-axis hardware remains assembled/in place. The exact R7 V2 print seats on the real Ender carriage and visually aligns correctly. The boss-clearance unsupported-overhang print defect recurred but did not prevent observed seating. No physical TradRack selector has been built yet.
 
-## Current transform
+Correct carriage face, seating, exercised carriage-hole relationship, visible wheel-fastener relationship, and boss-clearance seating function PASS only at the observed scope. Selector fit, belt/clamp dynamic clearance, rocking/translation/rotation and complete physical validation are NOT TESTED. See [scoped physical report](reports/R7_V2_PHYSICAL_CARRIAGE_FIT.md).
 
-`T_EnderCarriage_From_TradRackSelector`
+## Recorded digital state before printing
 
-- translation: `X +15.000 mm`, `Y +22.250 mm`, `Z -20.300 mm`;
-- roll/pitch/yaw: `0 / 0 / 0 degrees`;
-- +X toward tensioner/idler, +Y outward, +Z machine-up.
+Verifier v0.2: 19/19 checks PASS. The candidate's complete installed selector check reported no positive-volume interference among evaluated valid geometry; invalid source gear remained UNVERIFIED. Cable-cover nominal clearance 2.950 mm; left body 2.211 mm; minimum window-to-pilot material 0.975 mm. These are recorded CAD results, not physical measurements or strength proof. Stand-off +15.0 mm remains a candidate relationship.
 
-## Digital status
+## Audit caveat
 
-- one valid printable solid: PASS;
-- FCStd/STEP/STL fidelity: PASS;
-- selector, wheel-envelope, and conservative-belt intersections: 0 mm3;
-- minimum conservative selector-to-belt clearance: `0.867 mm`;
-- fabrication state: **PROVISIONAL - STATIC FIT-CHECK ONLY**.
+Installed upgraded FreeCAD skill: commit `7c26a143d2a6e4318724b96cc71c297f7424efa0`. Earlier broad master-context/reproducibility claims preceded discovery of stale embedded context metadata, 48 unreconciled shape occurrences, hidden live-session generator dependencies and ineffective declared parameters. Those claims require re-audit before production release. The audit caveat does not erase observed physical carriage fit or promote invalid geometry to clear. No whole-master re-audit was performed for this selector-build task.
 
-## Immediate prerequisite
+## Immediate next action
 
-The existing R5 G-code is diagnostic only. It used `Creality Ender-3 V2 0.4 nozzle` and has Orca warning `1000C001 bed_temperature_too_high_than_filament`.
+Build the exact [stock moving selector](STOCK_SELECTOR_BUILD.md), then finish R7's physical test. There are no selector parts owned yet. The build sheet separates the filament-drive motor from the Ender-provided translation motor and discloses unresolved R7 screw engagement/internal gear-stack details. Do not modify R7 to make the BOM look resolved.
 
-Select and verify an exact original Ender-3-family 0.4 mm profile and an approved/spool-specific PLA temperature, then re-slice R5 at 100% scale. Do not guess missing profile or temperature values.
+R7 architecture/frame, four selector axes and +15 mm candidate placement remain frozen. R5 and its 22.25 mm relationship are retired. R6/R6R1 geometries are rejected. R6R2 DIGITAL_OBJECT PASS; PHYSICAL TEST WAIVED BY OWNER, NOT A PHYSICAL PASS. Historical solids are evidence, not construction inputs.
 
-## Physical gate
+## Downstream gate
 
-After a warning-free approved slice, print R5 and mount the real stock TradRack selector finger-snug. Check seating, hole alignment, rotation/translation/rocking, wheel and belt access, fastener access, belt clearance, and light hand-load stiffness.
-
-## Blocked until physical PASS
-
-- complete 238 mm 15-lane sweep;
-- production adapter;
-- tensioner redesign;
-- complete lane structure and production exports.
-
-Full context: [ENDER_RACK_HANDOFF.md](ENDER_RACK_HANDOFF.md).
-
+Full R7 physical PASS precedes production adapter and full 238 mm selector sweep. Fifteen lanes at 17 mm pitch remains the goal; twelve lanes the fallback. First/middle/last master positions were context views, not a validated sweep. No redesign, slicing, printing command, production work or sweep was performed in this documentation task.

@@ -1,3 +1,5 @@
+> Historical evidence only. Not the current design or print instruction. R5 relationships and 22.25 mm stand-off are retired; see docs/CURRENT_STATE.md.
+
 # EnderRack Mechanical Feasibility Audit
 
 > **LEGACY / SUPERSEDED:** This report uses the rejected Ender-3 V2 carriage reference. Preserve its TradRack and lane-analysis evidence only. Do not use its carriage coordinates, transforms, adapter geometry, or collision conclusions for fabrication.

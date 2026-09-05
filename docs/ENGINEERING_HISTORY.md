@@ -1,5 +1,7 @@
 # EnderRack engineering history
 
+Current 2026-09-04 status: R7 V2 printed, scoped carriage fit PASS, full selector fit NOT TESTED. See [current state](CURRENT_STATE.md). Historical R5/22.25 mm conclusions below are retired; broad master/reproducibility claims need re-audit.
+
 This document records engineering events that occurred before this directory entered Git. They are not represented as retrospective Git commits.
 
 ## 1. Ender-3 V2 source rejected
@@ -21,4 +23,3 @@ The carriage-to-selector interface was rebuilt from the validated reference. Rev
 ## 5. Current gate pending
 
 R5 is digitally valid but has not passed the real-selector physical test. The available G-code is diagnostic only because it used a V2 printer preset and carries an Orca material-temperature warning. Correct profile selection and re-slicing precede the physical test.
-
