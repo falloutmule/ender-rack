@@ -1,6 +1,6 @@
 # EnderRack engineering handoff
 
-Read [CURRENT_STATE.md](CURRENT_STATE.md), [R7 V2 physical report](reports/R7_V2_PHYSICAL_CARRIAGE_FIT.md), then [STOCK_SELECTOR_BUILD.md](STOCK_SELECTOR_BUILD.md).
+Read [CURRENT_STATE.md](CURRENT_STATE.md), [R7 V2 physical report](reports/R7_V2_PHYSICAL_CARRIAGE_FIT.md), [modded-selector comparison](MODDED_SELECTOR_COMPARISON.md), then [STOCK_SELECTOR_BUILD.md](STOCK_SELECTOR_BUILD.md).
 
 ## Controlling facts
 
@@ -9,6 +9,8 @@ Read [CURRENT_STATE.md](CURRENT_STATE.md), [R7 V2 physical report](reports/R7_V2
 - ENDER_INTERFACE v1 and authenticated stock TradRack selector interface are the inputs; historical coupon solids are evidence only.
 - R7_ARCHITECTURE_V2_Candidate_001 has been printed and fits the carriage at the owner-observed scope. Its recurring boss-clearance overhang defect is recorded, not redesigned here.
 - No stock selector exists physically yet. Build the resolved 9 mm C-cart / 10x10-right / Micro-Fit / FT1117M moving selector, excluding the replaced stock MGN motion stage.
+- Stock R1 remains controlling after the Binky/EREC comparison. Modded R7 compatibility is UNVERIFIED, not failed-clear: the preferred F3D cannot be placed authoritatively in FreeCAD and the STEP reference contains an invalid encoder-left body in the R7 region.
+- Measure spare Ender stepper and both mirrored BMG-clone internals before buying the filament-drive motor or genuine Bondtech parts.
 - +15.0 mm selector stand-off is candidate, not measured/validated. Full R7 physical PASS has not occurred.
 
 ## Preserve architecture and evidence

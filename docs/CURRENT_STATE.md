@@ -1,6 +1,6 @@
 # EnderRack current state
 
-Updated 2026-09-04. **Current article: R7_ARCHITECTURE_V2_Candidate_001. Printed; scoped carriage fit PASS; full R7 physical PASS NOT YET.**
+Updated 2026-09-07. **Current article: R7_ARCHITECTURE_V2_Candidate_001. Printed; scoped carriage fit PASS; full R7 physical PASS NOT YET. Controlling selector remains stock TradRack R1.**
 
 ## Physical state — owner report
 
@@ -18,7 +18,7 @@ Installed upgraded FreeCAD skill: commit `7c26a143d2a6e4318724b96cc71c297f7424ef
 
 ## Immediate next action
 
-Build the exact [stock moving selector](STOCK_SELECTOR_BUILD.md), then finish R7's physical test. There are no selector parts owned yet. The build sheet separates the filament-drive motor from the Ender-provided translation motor and discloses unresolved R7 screw engagement/internal gear-stack details. Do not modify R7 to make the BOM look resolved.
+Build the exact [stock moving selector](STOCK_SELECTOR_BUILD.md), then finish R7's physical test. The [Binky/EREC comparison](MODDED_SELECTOR_COMPARISON.md) did not establish an evidence-complete modded R7 relationship: the primary Fusion assembly cannot be authoritatively decoded in FreeCAD, and the STEP fallback contains an invalid encoder-left body overlapping the R7 region. Stock remains controlling; R7 remains frozen. Measure the spare Ender stepper and both mirrored BMG-clone internals before buying replacements.
 
 R7 architecture/frame, four selector axes and +15 mm candidate placement remain frozen. R5 and its 22.25 mm relationship are retired. R6/R6R1 geometries are rejected. R6R2 DIGITAL_OBJECT PASS; PHYSICAL TEST WAIVED BY OWNER, NOT A PHYSICAL PASS. Historical solids are evidence, not construction inputs.
 

@@ -1,0 +1,61 @@
+{
+  "schema": "ender-rack-modded-selector-source-manifest/1",
+  "generated_utc": "2026-09-07T23:53:41.304601Z",
+  "official_tradrack": {
+    "repository": "https://github.com/Annex-Engineering/TradRack",
+    "commit": "f89dc0b115adfc49195d782c5d7ecd348a574891",
+    "archive": "CAD/Trad_Rack_R1_2024-03-04_STEP.7z",
+    "default_step": "trad_rack_(default).STEP",
+    "default_step_sha256": "19459C5098A6C084D50F77AB4FBDBFABAB48D6845C84B3E9159F50776083BDB3"
+  },
+  "printables": [
+    {
+      "model_id": 1385926,
+      "role": "PRIMARY_BUILD_CANDIDATE",
+      "title": "TradRack Binky+EREC Integration [TRIANGLELABS PARTNERED]",
+      "author": "RedHeadnDead",
+      "published": "2026-04-26",
+      "license": "CC BY",
+      "url": "https://www.printables.com/model/1385926-tradrack-binkyerec-integration-trianglelabs-partne",
+      "files": 18,
+      "editable_source": {
+        "filename": "Tr-B-EREC.f3d",
+        "sha256": "a8720d880db6ff864ebedba0aa5a94ab2e2b68de9ed46b5c23b8c72be6046d12",
+        "bytes": 198673834,
+        "status": "AUTHENTIC_FILE_UNREADABLE_AS_AUTHORITATIVE_ASSEMBLY_IN_FREECAD"
+      }
+    },
+    {
+      "model_id": 963410,
+      "role": "REFERENCE_AND_FALLBACK_CAD",
+      "title": "TradRack MMU + Binky + Filament Cutter + User Mods CAD Model",
+      "author": "BakedBean3D",
+      "published": "2025-07-19",
+      "license": "GPL-2.0",
+      "url": "https://www.printables.com/model/963410-tradrack-mmu-binky-filament-cutter-user-mods-cad-m",
+      "files": [
+        {"filename": "TradRack + Binky latest.step", "sha256": "8e98019cfb0cae7b3347ec2de8a50c81fcb34339f20b04a7e2dc54db1df84154", "bytes": 179638590},
+        {"filename": "TradRack + Binky + Filament Cutter v2.step", "sha256": "a1da61631b8c57e58f0211d0ffc2670d74b5cc34cc007e4dae7c031b767b3df1", "bytes": 181666017}
+      ],
+      "author_physical_status": "BINKY_INTEGRATION_EXPLICITLY_NOT_PRINTED_OR_USED"
+    },
+    {
+      "model_id": 985791,
+      "role": "CUTTER_IMPLEMENTATION_EVIDENCE",
+      "title": "TradRack Encoder + Cutter Mod",
+      "author": "Pham Tuan",
+      "published": "2024-08-29",
+      "license": "GPL-2.0",
+      "url": "https://www.printables.com/model/985791-tradrack-encoder-cutter-mod",
+      "files": 24,
+      "source_format": "STL_ONLY",
+      "variants": ["Core", "Beta 6 Cutter", "Beta 7 Cutter"]
+    }
+  ],
+  "downloaded_file_manifest": "external scratch/source_provenance_manifest.json",
+  "notes": [
+    "All 44 downloaded files were hashed after download.",
+    "The full per-file list remains in external scratch to avoid copying 380+ MB of third-party source into this repository.",
+    "No source file was edited or saved over."
+  ]
+}

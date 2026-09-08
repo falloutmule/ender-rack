@@ -1,6 +1,6 @@
 # EnderRack durable decisions
 
-Current as of 2026-09-04; supersedes conflicting historical status language, not historical evidence.
+Current as of 2026-09-07; supersedes conflicting historical status language, not historical evidence.
 
 1. Mechanical donor is the original/older Ender-3-family X-axis. It was NEVER disassembled. Aquila identifies the print machine only.
 2. Community Ender-3 V2 fit geometry is retired. Official Creality E-plate + scoped R2 physical evidence establish the interface and seating face.
@@ -16,3 +16,5 @@ Current as of 2026-09-04; supersedes conflicting historical status language, not
 12. Stock selector printing follows upstream ASA/PC guidance, not PLA coupon settings. R7 service sequence: mount/tighten carriage adapter first, then mount selector finger-snug using verified engagement.
 13. Full R7 physical PASS gates production adapter and 238 mm sweep. Target 15 lanes at 17 mm pitch; 12-lane fallback. Context lane views are not a collision sweep.
 14. Read actual repository HEAD/dirty state; preserve user work and history. Happy Hare/Klipper and donor electronics remain future plans, not commissioned hardware.
+15. The 2026-09-07 Binky/EREC comparison does not change the controlling selector. Printables 1385926 is the preferred physical-build mod candidate, but its F3D cannot be decoded into authoritative assembly BReps/placements by the installed FreeCAD toolchain. Printables 963410 shows positive nominal clearance for valid Binky/cutter bodies, but an invalid overlapping encoder-left body keeps the complete result UNVERIFIED. Preserve this result; do not infer clear from invalid geometry.
+16. Build stock R1 first. Before buying a filament-drive motor or genuine Bondtech internals, measure the spare Ender stepper and both mirrored BMG-clone internals. Housing handedness is not a reason to reject reusable internals.

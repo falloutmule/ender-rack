@@ -1,5 +1,7 @@
 # PRINT THESE NOW
 
+**Controlling selection after the 2026-09-07 mod comparison: stock R1.** Binky and EREC remain UNVERIFIED against R7; see [MODDED_SELECTOR_COMPARISON.md](MODDED_SELECTOR_COMPARISON.md). Measure the user's spare Ender stepper and mirrored BMG-clone internals before purchasing the motor or genuine Bondtech parts below.
+
 One stock moving selector: **9 mm belt / C-cart middle, 10x10 two-hole right carriage, Micro-Fit holder, FT1117M servo, conventional separate BMG gears**. These variant names preserve the authenticated default selector geometry; they do not require buying a TradRack belt, rail, or cable chain now. Twelve part files, one of each. No R7 redesign.
 
 | Quantity | Exact upstream path | Exact filename | Upstream Git blob SHA | Purpose / source object | Color |
@@ -38,12 +40,12 @@ Installed quantities, not package sizes; buy spares at your discretion. The offi
 
 | Quantity | Exact item/spec | Used in | Upstream BOM row/category | Buy now? | Notes |
 |---|---|---|---|---|---|
-| 1 | NEMA17 filament-drive motor, 1.8°, LDO-42STH48-2504AC | Filament drive | 24 Motion/Common | YES | 48 mm motor in stock source; NOT selector-motion motor. |
-| 1 | Bondtech BMG 17T motor gear | Motor shaft | 15 Motion/Common | YES | Retain supplied locking screw; not the 20T motion pulley. |
-| 1 set | Bondtech drive gear set, 1.75 mm filament / 5 mm bore | Primary gear + idler | 17 Motion/Common | YES | Include two idler needle bearings and primary-gear set screw. Do not buy an IDGA replacement. |
-| 1 | Bondtech original BMG main shaft assembly, 50T geared shaft | Filament reduction | 18 Motion/Common | HOLD exact stack confirmation | Original separate-gear BMG assembly, manufacturer 15021. Internal-shim/stack equivalence UNRESOLVED; do not substitute integrated/short-shaft kits. |
-| 1 | Bondtech BMG thumbscrew assembly | Idler preload | 19 Motion/Common | YES | Use its spring and plastic washer; replace its thumbscrew with M3x30 + printed collar (PDF p38). |
-| 1 | 3 x 20 mm shaft, G6 external fit, 1045 steel | Idler gear | 16 Motion/Common | YES | One total; often included in drive-gear set, do not double-buy. |
+| 1 | NEMA17 filament-drive motor, 1.8°, stock target LDO-42STH48-2504AC | Filament drive | 24 Motion/Common | **HOLD — MEASURE SPARE ENDER MOTOR** | 48 mm body in stock source; NOT selector-motion motor. Buy only if reuse check fails. |
+| 1 | Bondtech BMG 17T motor gear | Motor shaft | 15 Motion/Common | **HOLD — MEASURE CLONE PART** | Retain locking screw; not the 20T motion pulley. Buy only if tooth count, bore and axial alignment fail. |
+| 1 set | Bondtech drive gear set, 1.75 mm filament / 5 mm primary bore | Primary gear + idler | 17 Motion/Common | **HOLD — MEASURE CLONE PARTS** | Include two idler needle bearings and primary-gear set screw. Do not buy an IDGA replacement before comparison. |
+| 1 | Bondtech original BMG main shaft assembly, 50T geared shaft | Filament reduction | 18 Motion/Common | **HOLD — MEASURE CLONE STACK** | Original separate-gear BMG assembly, manufacturer 15021. Internal-shim/stack equivalence UNRESOLVED; do not substitute integrated/short-shaft kits. |
+| 1 | Bondtech BMG thumbscrew assembly | Idler preload | 19 Motion/Common | **HOLD — INSPECT CLONE** | Reuse candidate is spring and plastic washer; stock build replaces the thumbscrew itself with M3x30 + printed collar. |
+| 1 | 3 x 20 mm shaft, G6 external fit, 1045 steel | Idler gear | 16 Motion/Common | **HOLD — MEASURE CLONE SHAFT** | One total; often included in drive-gear set, do not double-buy. |
 | 2 | MR85-2RS bearings, 5 x 8 x 2.5 mm | Main gear shaft | 20 Motion/Common | YES | One each side; kit contents count toward two only if correct spec. |
 | 2 | MR115-2RS bearings, 5 x 11 x 4 mm | Tilting mechanism pivots | 21 Motion/Common | YES | One in each carriage side. |
 | 1 | 623-2RS bearing, 3 x 10 x 4 mm | Servo-horn follower | 22 Motion/Common | YES | Only one selector bearing; lane bearings excluded. |
@@ -77,6 +79,23 @@ Installed quantities, not package sizes; buy spares at your discretion. The offi
 ## ALREADY PROVIDED BY ENDER
 
 The intact Ender X extrusion, V-wheel carriage/complete wheel stack, belt, X motor and drive, idler/tensioner/end hardware, and endstop provide selector translation. The original Ender X-axis hardware remains assembled/in place. This is separate from the Aquila used to print the R7 coupon.
+
+## REUSE CHECK — DO THIS BEFORE BUYING MOTOR OR BMG PARTS
+
+The two mirrored/reverse BMG housings are irrelevant if their removable internals match. Record both clones separately; do not assume they contain identical parts.
+
+| Candidate | Measure/inspect | Acceptance comparison |
+|---|---|---|
+| spare Ender stepper | 42 mm face; mounting-hole center spacing; shaft diameter; shaft protrusion from face; body depth; connector/pin order; rated current/phase; smooth shaft/bearing condition | Must match NEMA17 mounting, 5 mm motor-gear bore and the stock 48 mm envelope/gear alignment without R7 or selector interference. Torque/current suitability must be supported by the motor label/datasheet, not appearance. |
+| 17T motor pinion | tooth count; 5 mm bore; face width; set-screw presence/condition; installed axial position range | Must mesh with the 50T gear at the stock motor spacing and retain securely on the spare motor shaft. |
+| primary hob/50T geared shaft | 50T gear; 5 mm bearing journals; hob diameter and groove; overall/shoulder lengths; set screw; runout/damage | Compare the complete axial stack to the official conventional BMG shaft assembly. Do not approve a short/integrated shaft by gear appearance alone. |
+| idler drive gear | 3 mm needle-bearing bore; hob diameter/groove alignment; width; tooth profile; damage | Must accept the 3 x 20 pin and two needle bearings and align its filament groove with the primary hob. |
+| needle bearings | quantity two; fit on 3 mm pin; OD/length; smoothness/play | Both must fit the idler gear without binding or visible corrosion/brinelling. |
+| 3 mm pin | diameter at several points; length; straightness and surface finish | Target is 3 x 20 mm; reject bent/scored or loose parts. |
+| spring/plastic washer | spring OD, wire diameter, free length and damage; washer ID/OD/thickness | Compare physically with the BMG thumbscrew preload stack; reuse only if it seats squarely and gives usable adjustment with M3x30/collar. |
+| MR85 bearings if present | markings or measured 5 x 8 x 2.5 mm; smoothness/play | Two required for the main shaft; clone bearings are reusable only if dimensionally correct and smooth. |
+
+Photograph the motor label and lay the measured internals beside calipers. Do not buy genuine Bondtech parts or a new filament-drive motor until this table is completed. Binky could later reuse the idler gear, two needle bearings, 3 x 20 pin and spring, but that does not justify printing Binky before its R7 result is resolved.
 
 ## DO NOT BUY
 

@@ -1,0 +1,47 @@
+{
+  "schema": "ender-rack-r7-modded-selector-compatibility/1",
+  "date": "2026-09-07",
+  "r7": {
+    "id": "R7_ARCHITECTURE_V2_Candidate_001",
+    "step_sha256": "211DD737F815708C13A3B893DB18F45A31397B28B6DBA2BA8A8C46DA538F51CC",
+    "stand_off_mm": 15.0,
+    "geometry_modified": false
+  },
+  "transform": {
+    "direction": "E_FROM_PRINTABLES_963410_MOD_REFERENCE",
+    "units": "mm",
+    "column_vector_matrix": [
+      [1, 0, 0, -20.375],
+      [0, 0, 1, 25.02225677],
+      [0, -1, 0, -52.031656654],
+      [0, 0, 0, 1]
+    ],
+    "determinant": 1.0,
+    "orthogonal": true,
+    "scale": [1, 1, 1],
+    "shear": false,
+    "chain": "mod reference -> authenticated stock R1 selector frame -> established E frame"
+  },
+  "results": {
+    "stock_r1": "DIGITALLY_COMPATIBLE_AT_CANDIDATE_RELATIONSHIP_PHYSICAL_SELECTOR_TEST_PENDING",
+    "r1_plus_binky": "UNVERIFIED",
+    "r1_plus_binky_plus_erec": "UNVERIFIED"
+  },
+  "measurements": [
+    {"object": "BinkyRack wgate switch encoder mount (Exerqtor_82339)", "valid": true, "intersection_mm3": 0.0, "distance_mm": 3.0300689834354295},
+    {"object": "Encoder Right (2)(Mirror)", "valid": true, "intersection_mm3": 0.0, "distance_mm": 1.8739183770733077},
+    {"object": "Encoder Left (2)(Mirror)", "valid": false, "intersection_mm3": null, "distance_mm": null, "status": "UNVERIFIED_OVERLAPPING_BOUNDING_REGION"},
+    {"object": "servoMotorMG996R (1)(Mirror)", "valid": true, "intersection_mm3": 0.0, "distance_mm": 0.17225676999998996}
+  ],
+  "excluded_reference_occurrences": [
+    "stock MGN9 translation carriage",
+    "stock selector-motion rail screws",
+    "lane module/reference hardware replaced by EnderRack translation"
+  ],
+  "limitations": [
+    "Printables 1385926 F3D contains Autodesk ShapeManager data that the installed FreeCAD toolchain cannot decode into authoritative native BReps and placements.",
+    "Individual STL print files are not assembly-placement authority.",
+    "Printables 963410 contains invalid imported selector/encoder BReps; invalid geometry was not treated as zero collision.",
+    "No 238 mm sweep was run."
+  ]
+}
